@@ -17,7 +17,7 @@ public partial class PromotionsPage : ContentPage
             .ToList();
         PromotionsListView.ItemsSource = promotionalItems;
     }
-
+    //
     private async void OnAddToCartClicked(object sender, EventArgs e)
     {
         var button = sender as Button;
