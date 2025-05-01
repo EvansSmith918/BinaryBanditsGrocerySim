@@ -1,4 +1,5 @@
-﻿namespace BinaryBanditsGrocerySim;
+// "
+namespace BinaryBanditsGrocerySim;
 
 public partial class App : Application
 {
