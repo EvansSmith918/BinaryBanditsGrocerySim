@@ -1,4 +1,4 @@
-namespace BinaryBanditsGrocerySim;
+namespace BinaryBanditsGrocerySim; 
 
 public partial class AislePage : ContentPage
 {
@@ -7,7 +7,7 @@ public partial class AislePage : ContentPage
         InitializeComponent();
         LoadAisles();
     }
-
+//Load Aisle function
     private void LoadAisles()
     {
         var aisles = InventoryService.GetItems()
@@ -16,7 +16,7 @@ public partial class AislePage : ContentPage
             .ToList();
         AisleListView.ItemsSource = aisles;
     }
-
+//Button Function
     private async void OnAisleTapped(object sender, ItemTappedEventArgs e)
     {
         if (e.Item is string aisle)
