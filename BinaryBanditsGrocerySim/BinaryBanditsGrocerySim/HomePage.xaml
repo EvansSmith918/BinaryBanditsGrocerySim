@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BinaryBanditsGrocerySim"
+             x:Class="BinaryBanditsGrocerySim.HomePage"
+             Title="Binary Bandits Grocery Simulator">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Welcome to Binary Bandits Grocery Simulator" FontSize="24" HorizontalOptions="Center" FontAttributes="Bold" />
+        <Label Text="Select a Shopper:" Style="{StaticResource LabelStyle}" />
+        <Picker x:Name="ShopperPicker" Title="Choose a shopper" SelectedIndexChanged="OnShopperSelected" />
+        <Label x:Name="BalanceLabel"
+               x:DataType="local:HomePage"
+               Text="{Binding ShopperBalanceText, Mode=OneWay}"
+               Style="{StaticResource LabelStyle}"
+               HorizontalOptions="Center" />
+        <Button Text="Browse Aisles" Style="{StaticResource NavigationButtonStyle}" Clicked="OnBrowseAislesClicked" />
+        <Button Text="View Cart" Style="{StaticResource NavigationButtonStyle}" Clicked="OnViewCartClicked" />
+        <Button Text="Manage Inventory" Style="{StaticResource NavigationButtonStyle}" Clicked="OnManageInventoryClicked" />
+        <Button Text="Promotions" Style="{StaticResource NavigationButtonStyle}" Clicked="OnPromotionsClicked" />
+        <Button Text="Settings" Style="{StaticResource NavigationButtonStyle}" Clicked="OnSettingsClicked" />
+        <Button Text="Customer Service" Style="{StaticResource NavigationButtonStyle}" Clicked="OnCustomerServiceClicked" />
+    </VerticalStackLayout>
+</ContentPage>

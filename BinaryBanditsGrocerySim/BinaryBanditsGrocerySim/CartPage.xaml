@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BinaryBanditsGrocerySim"
+             xmlns:models="clr-namespace:BinaryBanditsGrocerySim.Models"
+             x:Class="BinaryBanditsGrocerySim.CartPage"
+             x:DataType="local:CartPage"
+             Title="Shopping Cart">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Your Cart" FontSize="24" HorizontalOptions="Center" FontAttributes="Bold" />
+        <Label Text="Cart is empty" FontSize="16" HorizontalOptions="Center" TextColor="Gray"
+               IsVisible="{Binding HasItems, Converter={StaticResource InverseBooleanConverter}}" />
+        <ListView x:Name="CartItemsListView" RowHeight="80">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:CartItem">
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Grid.Column="0">
+                                <Label Text="{Binding Name}" Style="{StaticResource LabelStyle}" />
+                                <Label Text="{Binding TotalCost, StringFormat='Total: {0:C}'}" FontSize="14" TextColor="Gray" />
+                            </StackLayout>
+                            <Button Text="-" Grid.Column="1" Clicked="OnDecreaseQuantityClicked" CommandParameter="{Binding .}" WidthRequest="40" Margin="5,0" />
+                            <Label Text="{Binding Quantity}" Grid.Column="2" VerticalOptions="Center" />
+                            <Button Text="+" Grid.Column="3" Clicked="OnIncreaseQuantityClicked" CommandParameter="{Binding .}" WidthRequest="40" Margin="5,0" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label x:Name="TotalPriceLabel" FontSize="18" HorizontalOptions="End" />
+        <Button Text="Proceed to Checkout" Style="{StaticResource NavigationButtonStyle}" Clicked="OnCheckoutClicked"
+                IsVisible="{Binding HasItems}" />
+    </VerticalStackLayout>
+</ContentPage>

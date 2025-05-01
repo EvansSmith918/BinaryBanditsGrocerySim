@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:BinaryBanditsGrocerySim.Models"
+             x:Class="BinaryBanditsGrocerySim.InventoryManagerPage"
+             Title="Inventory Manager">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Manage Inventory" FontSize="24" HorizontalOptions="Center" FontAttributes="Bold" />
+        <ListView x:Name="InventoryListView" RowHeight="80">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:Item">
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Grid.Column="0">
+                                <Label Text="{Binding Name}" Style="{StaticResource LabelStyle}" />
+                                <Label Text="{Binding Price, StringFormat='Price: {0:C}'}" FontSize="14" TextColor="Gray" />
+                            </StackLayout>
+                            <Label Text="Qty:" Grid.Column="1" VerticalOptions="Center" />
+                            <Entry Text="{Binding Quantity}" WidthRequest="60" Grid.Column="2" VerticalOptions="Center" Keyboard="Numeric" />
+                            <Button Text="Update" Grid.Column="3" Clicked="OnUpdateQuantityClicked" CommandParameter="{Binding .}" Margin="5,0" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Back to Home" Style="{StaticResource NavigationButtonStyle}" Clicked="OnBackToHomeClicked" />
+    </VerticalStackLayout>
+</ContentPage>

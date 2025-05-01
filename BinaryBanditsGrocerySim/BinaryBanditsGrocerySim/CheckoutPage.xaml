@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BinaryBanditsGrocerySim.CheckoutPage"
+             Title="Checkout">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Checkout" FontSize="24" HorizontalOptions="Center" FontAttributes="Bold" />
+        <Label x:Name="TotalPriceLabel" FontSize="18" HorizontalOptions="Center" />
+        <Label Text="Payment Method" Style="{StaticResource LabelStyle}" />
+        <Picker x:Name="PaymentMethodPicker" Title="Select Payment Method">
+            <Picker.Items>
+                <x:String>VISA</x:String>
+                <x:String>PayPal</x:String>
+            </Picker.Items>
+        </Picker>
+        <Entry x:Name="CardNumberEntry" Placeholder="Card Number" Keyboard="Numeric" />
+        <Entry x:Name="ExpirationDateEntry" Placeholder="Expiration Date (MM/YY)" />
+        <Entry x:Name="CVVEntry" Placeholder="CVV" Keyboard="Numeric" />
+        <Entry x:Name="CardHolderNameEntry" Placeholder="Card Holder Name" />
+        <Label Text="Apply Discount Code" Style="{StaticResource LabelStyle}" />
+        <Entry x:Name="DiscountCodeEntry" Placeholder="Enter discount code" />
+        <Button Text="Apply Discount" Style="{StaticResource NavigationButtonStyle}" Clicked="OnApplyDiscountClicked" />
+        <Label x:Name="DiscountLabel" Text="Discount Applied: None" Style="{StaticResource LabelStyle}" />
+        <Button Text="Confirm Payment" Style="{StaticResource NavigationButtonStyle}" Clicked="OnConfirmPaymentClicked" />
+        <Label Text="Opt-in to Rewards Program" Style="{StaticResource LabelStyle}" />
+        <Entry x:Name="EmailEntry" Placeholder="Enter your email" Keyboard="Email" />
+        <CheckBox x:Name="RewardsOptInCheckBox" IsChecked="False" />
+    </VerticalStackLayout>
+</ContentPage>
