@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P5f+tTKn+Co=",
+  "dgSpecHash": "Z3KZ5dcIfQk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\evans\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim.csproj",
+  "projectFilePath": "D:\\GroceryStoreSimulatorFresh\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evans\\.nuget\\packages\\googlegson\\2.11.0.5\\googlegson.2.11.0.5.nupkg.sha512",
     "C:\\Users\\evans\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",

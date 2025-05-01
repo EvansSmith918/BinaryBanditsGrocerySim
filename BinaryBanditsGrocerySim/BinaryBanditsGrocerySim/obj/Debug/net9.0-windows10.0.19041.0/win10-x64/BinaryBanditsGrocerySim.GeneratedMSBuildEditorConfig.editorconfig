@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BinaryBanditsGrocerySim
-build_property.ProjectDir = C:\Users\evans\BinaryBanditsGrocerySim\BinaryBanditsGrocerySim\
+build_property.ProjectDir = D:\GroceryStoreSimulatorFresh\BinaryBanditsGrocerySim\BinaryBanditsGrocerySim\BinaryBanditsGrocerySim\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,79 +22,79 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/AislePage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/AislePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.AislePage.xaml
 build_metadata.AdditionalFiles.TargetPath = AislePage.xaml
 build_metadata.AdditionalFiles.RelativePath = AislePage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/App.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/AppShell.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/CartPage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/CartPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.CartPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CartPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CartPage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/CheckoutPage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/CheckoutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.CheckoutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CheckoutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CheckoutPage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/CustomerServicePage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/CustomerServicePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.CustomerServicePage.xaml
 build_metadata.AdditionalFiles.TargetPath = CustomerServicePage.xaml
 build_metadata.AdditionalFiles.RelativePath = CustomerServicePage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/HomePage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/InventoryManagerPage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/InventoryManagerPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.InventoryManagerPage.xaml
 build_metadata.AdditionalFiles.TargetPath = InventoryManagerPage.xaml
 build_metadata.AdditionalFiles.RelativePath = InventoryManagerPage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/ItemPage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/ItemPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.ItemPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ItemPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ItemPage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/PromotionsPage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/PromotionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.PromotionsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = PromotionsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = PromotionsPage.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/Resources/Styles/Colors.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/Resources/Styles/Styles.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/evans/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/SettingsPage.xaml]
+[D:/GroceryStoreSimulatorFresh/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/BinaryBanditsGrocerySim/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BinaryBanditsGrocerySim.SettingsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SettingsPage.xaml

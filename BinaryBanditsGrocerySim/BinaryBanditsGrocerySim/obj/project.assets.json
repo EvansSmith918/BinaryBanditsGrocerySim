@@ -26227,11 +26227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\evans\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim.csproj",
+      "projectUniqueName": "D:\\GroceryStoreSimulatorFresh\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim.csproj",
       "projectName": "BinaryBanditsGrocerySim",
-      "projectPath": "C:\\Users\\evans\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim.csproj",
+      "projectPath": "D:\\GroceryStoreSimulatorFresh\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim.csproj",
       "packagesPath": "C:\\Users\\evans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\evans\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\obj\\",
+      "outputPath": "D:\\GroceryStoreSimulatorFresh\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\BinaryBanditsGrocerySim\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

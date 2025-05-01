@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BinaryBanditsGrocerySim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+82fe5a75b23ed73d5d1cb66d309bfcb4b5b7ab98")]
 [assembly: System.Reflection.AssemblyProductAttribute("BinaryBanditsGrocerySim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BinaryBanditsGrocerySim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
